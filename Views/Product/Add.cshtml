@@ -1,0 +1,45 @@
+﻿@model DemoGraviton.Models.Product;
+@{
+    ViewData["Title"] = "Add";
+}
+
+<form method="post" asp-controller="product" asp-action="add">
+    <table align="center" border="1" cellpadding="2" cellspacing="2">
+        <tr>
+            <td>Id</td>
+            <td>
+                <input type="text" asp-for="Id" required="required" />
+            </td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>
+                <input type="text" asp-for="Name" required="required" />
+            </td>
+        </tr>
+        <tr>
+            <td>Price</td>
+            <td>
+                <input type="number" asp-for="Price" min="0" />
+            </td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td>
+                <input type="number" asp-for="Quantity" min="0" />
+            </td>
+        </tr>
+        <tr>
+            <td>Status</td>
+            <td>
+                <input type="checkbox" asp-for="Status" />
+            </td>
+        </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input type="submit" class="btn btn-primary" value="Save" />
+            </td>
+        </tr>
+    </table>
+</form>
