@@ -30,21 +30,21 @@ In this tutorial you will create a web application and a MySQL database using AW
 
 4. Testing it...If you see the following dotnet is installed
 
-```ssh
-dotnet
+    ```ssh
+    dotnet
 
-Usage: dotnet [options]
-Usage: dotnet [path-to-application]
+    Usage: dotnet [options]
+    Usage: dotnet [path-to-application]
 
-Options:
-  -h|--help         Display help.
-  --info            Display .NET Core information.
-  --list-sdks       Display the installed SDKs.
-  --list-runtimes   Display the installed runtimes.
+    Options:
+    -h|--help         Display help.
+    --info            Display .NET Core information.
+    --list-sdks       Display the installed SDKs.
+    --list-runtimes   Display the installed runtimes.
 
-path-to-application:
-  The path to an application .dll file to execute.
+    path-to-application:
+    The path to an application .dll file to execute.
 
-dotnet --list-sdks
-3.1.302 [/home/ec2-user/dotnet/sdk]
-```
+    dotnet --list-sdks
+    3.1.302 [/home/ec2-user/dotnet/sdk]
+    ```
